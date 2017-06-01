@@ -27,4 +27,5 @@ var sequelize = new Sequelize(url, {storage: storage});
 var Quiz = sequelize.import(path.join(__dirname, 'quiz'));
 
 
-exports.Quiz = Quiz; // exportar definición de tabla Quiz
+exports.Quiz = Quiz; 
+// exportar definición de tabla Quiz
